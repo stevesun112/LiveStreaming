@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/rjzirkel/Documents/GitHub/CSCI5221-LiveStreamingProject/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <!-- From: file:/C:/Users/rjzirkel/Documents/GitHub/CSCI5221-LiveStreamingProject/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">example3</string>
+    <string name="camera">Camera</string>
+    <string name="default_bitrate">0kbps</string>
+    <string name="default_password">admin</string>
+    <string name="default_stream">rtsp://wowzaipaddress:1935/live/test.stream</string>
+    <string name="default_username">admin</string>
+    <string name="flash">Flash</string>
+    <string name="password">Password: </string>
+    <string name="quality">Quality</string>
+    <string name="select">Ok</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="uri">URI: </string>
+    <string name="username">Username: </string>
+    <!-- From: file:/C:/Users/rjzirkel/Documents/GitHub/CSCI5221-LiveStreamingProject/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
