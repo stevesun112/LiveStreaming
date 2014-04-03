@@ -265,6 +265,7 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 	public void onSessionStopped() {
 		enableUI();
 		mButtonStart.setText(R.string.start);
+        mButtonEmail.setEnabled(true);
 	}
 
 	@Override

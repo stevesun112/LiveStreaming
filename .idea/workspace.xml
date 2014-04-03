@@ -97,7 +97,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="118" selection-start="7770" selection-end="7770" vertical-scroll-proportion="0.35940802" vertical-offset="3536" max-vertical-offset="5525">
+            <state line="267" column="36" selection-start="9123" selection-end="9123" vertical-scroll-proportion="0.44186047" vertical-offset="4330" max-vertical-offset="5542">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3409#3443#0" expanded="true" />
@@ -1197,7 +1197,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1336,7 +1336,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="118" selection-start="7770" selection-end="7770" vertical-scroll-proportion="0.35940802" vertical-offset="3536" max-vertical-offset="5525">
+        <state line="267" column="36" selection-start="9123" selection-end="9123" vertical-scroll-proportion="0.44186047" vertical-offset="4330" max-vertical-offset="5542">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3409#3443#0" expanded="true" />
