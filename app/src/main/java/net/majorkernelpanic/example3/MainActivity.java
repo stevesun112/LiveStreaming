@@ -12,6 +12,7 @@ import net.majorkernelpanic.streaming.video.VideoQuality;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.pm.ActivityInfo;
@@ -41,6 +42,7 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 	private Button mButtonCamera;
 	private Button mButtonQuality;
 	private Button mButtonSelect;
+    private Button mButtonEmail;
 	private RadioGroup mRadioGroup;
 	private LinearLayout mLayoutMenu; 
 	private SurfaceView mSurfaceView;
@@ -48,6 +50,7 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 	private EditText mEditTextURI;
 	private EditText mEditTextPassword;
 	private EditText mEditTextUsername;
+    private EditText mEditTextRecipient;
 	private Session mSession;
 	private RtspClient mClient;
 
@@ -63,10 +66,12 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 		mButtonCamera = (Button) findViewById(R.id.camera);
 		mButtonQuality = (Button) findViewById(R.id.quality);
 		mButtonSelect = (Button) findViewById(R.id.select);
+        mButtonEmail = (Button) findViewById(R.id.email);
 		mSurfaceView = (SurfaceView) findViewById(R.id.surface);
 		mEditTextURI = (EditText) findViewById(R.id.uri);
 		mEditTextUsername = (EditText) findViewById(R.id.username);
 		mEditTextPassword = (EditText) findViewById(R.id.password);
+        mEditTextRecipient = (EditText) findViewById(R.id.recipient);
 		mTextBitrate = (TextView) findViewById(R.id.bitrate);
 		mLayoutMenu =  (LinearLayout) findViewById(R.id.menu);
 		mRadioGroup =  (RadioGroup) findViewById(R.id.radio);
@@ -76,12 +81,14 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 		mButtonCamera.setOnClickListener(this);
 		mButtonQuality.setOnClickListener(this);
 		mButtonSelect.setOnClickListener(this);
-		
+        mButtonEmail.setOnClickListener(this);
+
 		SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
 		mEditTextURI.setText(mPrefs.getString("uri", getString(R.string.default_stream)));
 		mEditTextPassword.setText(mPrefs.getString("password", getString(R.string.default_password)));
 		mEditTextUsername.setText(mPrefs.getString("username", getString(R.string.default_username)));
-		
+        mEditTextRecipient.setText(mPrefs.getString("recipient", getString(R.string.default_recipient)));
+
 		// Configures the SessionBuilder
 		mSession = SessionBuilder.getInstance()
 		.setContext(getApplicationContext())
@@ -104,8 +111,9 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 		mSurfaceView.getHolder().addCallback(this);
 		
 		selectQuality();
-		
+
 	}
+
 
 	@Override
 	public void onClick(View v) {
@@ -126,7 +134,11 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 		case R.id.select:
 			mLayoutMenu.setVisibility(View.GONE);
 			selectQuality();
-			break;	
+			break;
+        case R.id.email:
+            mButtonEmail.setEnabled(false);
+            sendEmail();
+            break;
 		}
 	}
 
@@ -177,7 +189,8 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 			editor.putString("uri", mEditTextURI.getText().toString());
 			editor.putString("password", mEditTextPassword.getText().toString());
 			editor.putString("username", mEditTextUsername.getText().toString());
-			editor.commit();
+            editor.putString("recipient", mEditTextRecipient.getText().toString());
+            editor.commit();
 
 			// We parse the URI written in the Editext
 			Pattern uri = Pattern.compile("rtsp://(.+):(\\d+)/(.+)");
@@ -197,7 +210,23 @@ public class MainActivity extends Activity implements OnClickListener, RtspClien
 		}
 	}
 
-	private void logError(final String msg) {
+    // Connects/disconnects to the RTSP server and starts/stops the stream
+    public void sendEmail() {
+        Intent i = new Intent(Intent.ACTION_SEND);
+        i.setType("message/rfc822");
+        i.putExtra(Intent.EXTRA_EMAIL  , new String[]{mEditTextRecipient.getText().toString()});
+        i.putExtra(Intent.EXTRA_SUBJECT, "CSCI5221 Stream invitation");
+        i.putExtra(Intent.EXTRA_TEXT   , "You've been invited to a stream! It is available at the following address:\n" + mEditTextURI.getText().toString());
+        try {
+            startActivity(Intent.createChooser(i, "Send mail..."));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
+
+    private void logError(final String msg) {
 		final String error = (msg == null) ? "Error unknown" : msg; 
 		// Displays a popup to report the eror to the user
 		AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);

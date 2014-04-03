@@ -36,6 +36,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/quality" />
+
+        <Button
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
     </LinearLayout>
 
     <TextView
@@ -100,6 +107,21 @@
             android:singleLine="true"
             android:inputType="textVisiblePassword"
             android:text="@string/default_password" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recipient" />
+
+        <EditText
+            android:id="@+id/recipient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text="@string/default_recipient" />
 
     </LinearLayout>
 

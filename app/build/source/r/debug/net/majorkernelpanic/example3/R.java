@@ -18,28 +18,30 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int bitrate=0x7f070008;
+        public static final int bitrate=0x7f070009;
         public static final int camera=0x7f070004;
+        public static final int email=0x7f070006;
         public static final int flash=0x7f070003;
-        public static final int indicationUri=0x7f070006;
+        public static final int indicationUri=0x7f070007;
         public static final int layout=0x7f070000;
         public static final int layout2=0x7f070001;
-        public static final int menu=0x7f07000c;
-        public static final int password=0x7f07000a;
+        public static final int menu=0x7f07000e;
+        public static final int password=0x7f07000b;
         public static final int quality=0x7f070005;
-        public static final int radio=0x7f07000d;
-        public static final int radio1=0x7f07000e;
-        public static final int radio2=0x7f07000f;
-        public static final int radio3=0x7f070010;
-        public static final int radio6=0x7f070011;
-        public static final int radio7=0x7f070012;
-        public static final int radio8=0x7f070013;
-        public static final int radio9=0x7f070014;
-        public static final int select=0x7f070015;
+        public static final int radio=0x7f07000f;
+        public static final int radio1=0x7f070010;
+        public static final int radio2=0x7f070011;
+        public static final int radio3=0x7f070012;
+        public static final int radio6=0x7f070013;
+        public static final int radio7=0x7f070014;
+        public static final int radio8=0x7f070015;
+        public static final int radio9=0x7f070016;
+        public static final int recipient=0x7f07000c;
+        public static final int select=0x7f070017;
         public static final int start=0x7f070002;
-        public static final int surface=0x7f07000b;
-        public static final int uri=0x7f070007;
-        public static final int username=0x7f070009;
+        public static final int surface=0x7f07000d;
+        public static final int uri=0x7f070008;
+        public static final int username=0x7f07000a;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -49,16 +51,19 @@ public final class R {
         public static final int camera=0x7f050001;
         public static final int default_bitrate=0x7f050002;
         public static final int default_password=0x7f050003;
-        public static final int default_stream=0x7f050004;
-        public static final int default_username=0x7f050005;
-        public static final int flash=0x7f050006;
-        public static final int password=0x7f050007;
-        public static final int quality=0x7f050008;
-        public static final int select=0x7f050009;
-        public static final int start=0x7f05000a;
-        public static final int stop=0x7f05000b;
-        public static final int uri=0x7f05000c;
-        public static final int username=0x7f05000d;
+        public static final int default_recipient=0x7f050004;
+        public static final int default_stream=0x7f050005;
+        public static final int default_username=0x7f050006;
+        public static final int email=0x7f050007;
+        public static final int flash=0x7f050008;
+        public static final int password=0x7f050009;
+        public static final int quality=0x7f05000a;
+        public static final int recipient=0x7f05000b;
+        public static final int select=0x7f05000c;
+        public static final int start=0x7f05000d;
+        public static final int stop=0x7f05000e;
+        public static final int uri=0x7f05000f;
+        public static final int username=0x7f050010;
     }
     public static final class style {
         /** 
