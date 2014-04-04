@@ -94,10 +94,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="25" selection-start="9231" selection-end="9231" vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="5542">
+            <state line="96" column="49" selection-start="4001" selection-end="4001" vertical-scroll-proportion="0.8985201" vertical-offset="680" max-vertical-offset="5015">
               <folding />
             </state>
           </provider>
@@ -114,20 +114,20 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="137" column="0" selection-start="4625" selection-end="4625" vertical-scroll-proportion="0.0" vertical-offset="1915" max-vertical-offset="3723">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.4906205" vertical-offset="0" max-vertical-offset="693">
+            <state line="6" column="27" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -797,8 +797,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -834,8 +834,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -963,7 +963,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="015d262e111ff80a" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="galaxy" />
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -1170,7 +1170,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1182,10 +1183,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1208,6 +1208,68 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="50" selection-start="3904" selection-end="3908" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="5015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/source/r/debug/net/majorkernelpanic/example3/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="32" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="4625" selection-end="4625" vertical-scroll-proportion="0.0" vertical-offset="1915" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="272" column="25" selection-start="9231" selection-end="9231" vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="5542">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/source/r/debug/net/majorkernelpanic/example3/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="32" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="4625" selection-end="4625" vertical-scroll-proportion="0.0" vertical-offset="1915" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="272" column="25" selection-start="9231" selection-end="9231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5542">
           <folding />
         </state>
@@ -1221,13 +1283,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="137" column="0" selection-start="4625" selection-end="4625" vertical-scroll-proportion="0.0" vertical-offset="1915" max-vertical-offset="3723">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -1285,25 +1347,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="4625" selection-end="4625" vertical-scroll-proportion="0.0" vertical-offset="1915" max-vertical-offset="3723">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="25" selection-start="9231" selection-end="9231" vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="5542">
+        <state line="137" column="0" selection-start="4625" selection-end="4625" vertical-scroll-proportion="0.0" vertical-offset="1915" max-vertical-offset="3723">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.4906205" vertical-offset="0" max-vertical-offset="693">
+        <state line="6" column="27" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/majorkernelpanic/example3/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="49" selection-start="4001" selection-end="4001" vertical-scroll-proportion="0.8985201" vertical-offset="680" max-vertical-offset="5015">
           <folding />
         </state>
       </provider>
