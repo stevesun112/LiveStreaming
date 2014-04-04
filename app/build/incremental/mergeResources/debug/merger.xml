@@ -61,17 +61,17 @@
                 </string>
                 <string name="start" >Start
                 </string>
-                <string name="default_password" >computer1
+                <string name="default_stream" >rtsp://76.112.83.75:1935/live/CSCI5221
                 </string>
-                <string name="default_stream" >rtsp://192.168.1.146:1935/live/CSCI5221
+                <string name="default_password" >computer1
                 </string>
                 <string name="app_name" >CSCI5221 Streamer
                 </string>
                 <string name="username" >Username: 
                 </string>
-                <string name="default_recipient" >zirke004@umn.edu
-                </string>
                 <string name="password" >Password: 
+                </string>
+                <string name="default_recipient" >zirke004@umn.edu
                 </string>
             </file>
             <file
