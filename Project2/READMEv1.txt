@@ -5,9 +5,9 @@ README v1.0
 
 + viro_sim_py (root folder)
 -+ topology_workloads           // folder that contains various topologies and run files
---+ topologies           // contains two topologies (fat-tree-k2 and isp-level3) along with *.run.sh files
----+ small topologies       // contains four small topologies (4 node, 7 node, 8 node, 20 node)
---+ workloads_for_report    // contains *run.sh files based on "--+ topologies" folder, 
+--+ topologies                  // contains two topologies (fat-tree-k2 and isp-level3) along with *.run.sh files
+---+ small topologies           // contains four small topologies (4 node, 7 node, 8 node, 20 node)
+--+ workloads_for_report        // contains *run.sh files based on "--+ topologies" folder, 
                   these files can be used for performance measurements, 
                   however not mandatory
                   

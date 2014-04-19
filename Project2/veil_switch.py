@@ -62,6 +62,7 @@ def findAGW(rdvStore,k,svid):
     s.sort()
     
     # return the gateway with least logical distance
+    # TODO: return at most three gateways here
     return gw[s[0]]
 
 #######################################
@@ -115,6 +116,7 @@ def processPacket(packet):
         
         # gateway found, form reply packet and sent to svid
         # create a RDV_REPLY packet and send it
+        # TODO: Pass the set of gatways here
         replypacket = createRDV_REPLY(int(gw,2),k,myvid, svid)
         routepacket(replypacket)
         return
@@ -122,6 +124,8 @@ def processPacket(packet):
     elif packettype == RDV_REPLY:
         # Fill my routing table using this new information
         [gw] = struct.unpack("!I", packet[20:24])
+        # TODO: unpack second and third gatways and add them to the routing table
+
         gw_str = bin2str(gw,L)
         k = int(payload,2)
         
@@ -204,6 +208,12 @@ def sendPacket(packet,nexthop):
 
 def routepacket(packet):
     global myvid, routingTable, vid2pid, myprintid, L
+
+    # TODO: Decrement TTL
+    # TODO: if TTL is 0, drop packet
+    # TODO: Either strip or ignore
+    # TODO: Source must set the initial TTL
+    # TODO: Destination must strip TTL
     
     # get destination from packet
     dst = getDest(packet,L)
@@ -223,6 +233,14 @@ def routepacket(packet):
     nexthop = ''
     packettype = getOperation(packet) # ie. RDV_REPLY / RDV_QUERY / RDV_PUBLISH / DATA?
     
+    # TODO: Choose path based on forwarding directive to support multi-path
+    #       routing
+    # TODO: After we find the nexthop, we test to see if that node is functional
+    #       if so, send to that node
+    #       if not, we update the routing table: remove this record from table
+    #         after this, we look for the next nexthop
+    # TODO: Question: what happens if we run out of nexthops?
+    #       notify source? drop packet?
     while nexthop == '':
         if dst in vid2pid:
             nexthop = vid2pid[dst]
