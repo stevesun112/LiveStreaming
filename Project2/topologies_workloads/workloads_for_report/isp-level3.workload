@@ -1,0 +1,10 @@
+SCHEMA: <source> <destination> <rate: packets/second>
+localhost:8001 localhost:8031 30.0
+localhost:8006 localhost:8003 10.0
+localhost:8026 localhost:8015 20.0
+localhost:8018 localhost:8024 15.0
+localhost:8023 localhost:8014 25.0
+localhost:8004 localhost:8027 15.0
+localhost:8010 localhost:8012 10.0
+localhost:8012 localhost:8021 15.0
+localhost:8032 localhost:8025 20.0

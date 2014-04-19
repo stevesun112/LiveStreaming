@@ -1,0 +1,17 @@
+graph G{
+"localhost:5001" [label="LH:5001(000)"];
+"localhost:5002" [label="LH:5002(110)"];
+"localhost:5003" [label="LH:5003(001)"];
+"localhost:5005" [label="LH:5005(100)"];
+"localhost:5004" [label="LH:5004(010)"];
+"localhost:5007" [label="LH:5007(011)"];
+"localhost:5006" [label="LH:5006(101)"];
+"localhost:5001"--"localhost:5002";
+"localhost:5001"--"localhost:5003";
+"localhost:5002"--"localhost:5005";
+"localhost:5003"--"localhost:5004";
+"localhost:5004"--"localhost:5005";
+"localhost:5004"--"localhost:5007";
+"localhost:5005"--"localhost:5006";
+"localhost:5006"--"localhost:5007";
+}

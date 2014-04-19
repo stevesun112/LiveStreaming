@@ -1,0 +1,5 @@
+//This workload set tests cross-pod O-D pairs. Failures: 1001@15s, 1003@20s.
+localhost:3001 localhost:3008 15.0
+localhost:3007 localhost:3002 15.0
+localhost:3003 localhost:3006 15.0
+localhost:3005 localhost:3004 15.0

@@ -1,0 +1,7 @@
+SCHEMA: <source> <destination> <rate: packets/second> //This workload is for testing purpose.
+localhost:8001 localhost:8033 1.2
+localhost:8001 localhost:8025 1.0
+localhost:8001 localhost:8012 1.1
+localhost:8026 localhost:8021 0.4
+localhost:8026 localhost:8006 0.5
+localhost:8019 localhost:8030 2.8

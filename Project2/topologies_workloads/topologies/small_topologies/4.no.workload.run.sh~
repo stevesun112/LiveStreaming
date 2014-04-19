@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function kill_veil () {
+    pkill -f veil_switch
+}
+
+trap kill_veil SIGINT
+
+rm -fr $1
+../../../veil_switch.pyc 4.adlist 4.vid localhost:5001 >> $1 &
+../../../veil_switch.pyc 4.adlist 4.vid localhost:5002 >> $1 &
+../../../veil_switch.pyc 4.adlist 4.vid localhost:5003 >> $1 &
+../../../veil_switch.pyc 4.adlist 4.vid localhost:5004 >> $1 &
+
+echo "Running. Ctrl-C to exit"
+while [ 1 ]; do
+    echo -n "."
+    sleep 60;
+done
