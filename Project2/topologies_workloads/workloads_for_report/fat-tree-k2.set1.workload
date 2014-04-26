@@ -1,5 +1,0 @@
-//This workload set tests within-pod O-D pairs. Failures: 2002@15s, 2003@20s, 2005@20s.
-localhost:3001 localhost:3002 10.0
-localhost:3004 localhost:3003 10.0
-localhost:3005 localhost:3006 10.0
-localhost:3008 localhost:3007 10.0

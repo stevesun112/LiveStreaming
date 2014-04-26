@@ -1,7 +1,0 @@
-SCHEMA: <source> <destination> <rate: packets/second> //This workload is for testing purpose.
-localhost:3001 localhost:3002 1.2
-localhost:3001 localhost:3003 1.1
-localhost:3001 localhost:3006 0.8
-localhost:3001 localhost:3007 0.6
-localhost:3005 localhost:3002 0.9
-localhost:3005 localhost:3008 1.0
